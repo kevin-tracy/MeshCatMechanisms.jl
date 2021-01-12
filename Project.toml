@@ -29,6 +29,7 @@ NBInclude = "1, 2"
 OrderedCollections = "1.0, 1.1"
 RigidBodyDynamics = "2"
 ValkyrieRobot = "0.2"
+StaticArrays = "1"
 julia = "1"
 
 [extras]
