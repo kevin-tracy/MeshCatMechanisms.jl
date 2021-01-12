@@ -29,7 +29,6 @@ NBInclude = "1, 2"
 OrderedCollections = "1.0, 1.1"
 RigidBodyDynamics = "2"
 ValkyrieRobot = "0.2"
-StaticArrays = "1"
 julia = "1"
 
 [extras]
@@ -41,4 +40,4 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 ValkyrieRobot = "c74b26e8-f247-5d24-b013-c11a2bbd97c6"
 
 [targets]
-test = ["StaticArrays", "Pkg", "NBInclude", "Test", "Blink", "ValkyrieRobot", "Random"]
+test = ["Pkg", "NBInclude", "Test", "Blink", "ValkyrieRobot", "Random"]
